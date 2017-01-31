@@ -84,7 +84,7 @@ persist-tun
 client-to-client
 username-as-common-name
 client-cert-not-required
-
+link-mtu 1500
 script-security 3 system
 auth-user-pass-verify /usr/local/bin/openvpn-auth.sh via-env
 
